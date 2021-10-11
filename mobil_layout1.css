@@ -1,0 +1,129 @@
+body{ 
+    background-color: #DDDDDD;
+    padding: 5% 10%;
+    font-family: Georgia, serif;
+
+}
+
+header{
+  
+
+}
+
+h1{
+    letter-spacing: 0.2em;
+    font-family: 'death_starregular', serif;
+    text-transform: uppercase;
+    color: #222222;
+    text-shadow: 5px 5px 5px #363636;
+    text-align: center;
+   font-size: 80px;
+    
+
+}
+h2 {
+    text-transform: capitalize;
+    font-style: italic;
+    font-size: 35px;
+  }
+
+
+main {
+    padding: 10px 10%;
+    margin: 35px 0;
+    box-shadow: 3px 4px 20px #363636;
+    background-color: #FFFFFF;
+
+}
+
+p{
+    line-height: 1.5em;
+    text-align: justify;
+    text-indent: 1em;
+    font-size: 30px;
+    
+}
+
+.bilde-boks{
+
+}
+.bilde-boks img{
+    width: 40%;
+    width: min(100%, 40rem);
+  width: clamp(1px, 100%, 35rem);
+  display: block;
+  filter: saturate(0.3);
+  
+    
+}
+.bilde-boks figcaption{
+   
+    
+}
+
+
+    /*-------*/
+    /* BOX 1 */
+    /*-------*/
+
+
+#box1{
+    display: inline-block;
+
+}
+
+#box1 p {
+    display: inline;
+  
+  }
+#box1 img {
+    margin-right: 1em;
+    float: left;
+}
+
+
+#box2{
+    display: inline-block;
+
+}
+
+#box2 p {
+    display: inline;
+  
+  }
+#box2 img {
+    margin-right: 1em;
+    float: left;
+}
+#box3{
+    display: inline-block;
+
+}
+
+#box3 p {
+    display: inline;
+  
+  }
+#box3 img {
+    margin-right: 1em;
+    float: left;
+}
+
+footer{
+
+}
+
+footer > p{
+    
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+}
+
+
+
+
+

@@ -1,0 +1,85 @@
+body{
+    
+    background-color: #DDDDDD;
+    padding: 5% 10%;
+    font-family: Georgia, serif;
+
+
+
+}
+
+header{
+    left: 30px;
+    right: 30px;
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+
+
+
+}
+
+h1{
+    left: 30px;
+    right: 30px;
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+
+    color: white;
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+main {
+
+}
+
+p{
+    
+}
+
+.bilde-boks{
+
+}
+.bilde-boks img{
+    
+}
+.bilde-boks figcaption{
+    
+}
+
+#box1{
+
+}
+
+#box2{
+    
+}
+
+#box3{
+    
+}
+
+#box4{
+    
+}
+
+#box5{
+    
+}
+
+#box6{
+    
+}
+
+footer{
+
+}
+
+footer > p{
+    
+}
+
+

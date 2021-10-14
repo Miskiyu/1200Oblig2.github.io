@@ -8,8 +8,13 @@
     
     }
     main{
-      
+    
+      display: flex;
+      flex-flow: wrap;
+      justify-content: flex-start;
     }
+      
+    
 
     
   
@@ -155,9 +160,23 @@
     }
     
     /* Portrait and Landscape */
-@media only screen 
-and (min-device-width: 375px) 
-and (max-device-width: 667px) 
-and (-webkit-min-device-pixel-ratio: 2) { 
-
-}
+    @media screen and(max-width:1000px) {
+      .container {
+        flex-flow: column;
+      }
+    }
+    /*phone*/
+    @media screen and(max-width:100px) {
+      .boks-tekst{
+        flex-wrap: column;
+    
+      }
+     
+      
+      .container {
+        flex-wrap: column;
+      }
+      h1{
+        font-size: 20000px;
+      }
+    }

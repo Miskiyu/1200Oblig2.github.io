@@ -12,6 +12,7 @@
 
 }
 
+
 body {
   background-color: rgba(170, 170, 89, 0.336);
   font-family: Georgia, serif;
@@ -80,7 +81,7 @@ footer p{
   font-size: 30px;
 }
 
-@media (min-width:1960px){
+@media (min-width:1080px){
   h1{
     font-size: 8rem;
     color: rgb(167, 167, 221);

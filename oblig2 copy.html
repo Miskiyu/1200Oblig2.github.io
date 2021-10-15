@@ -2,9 +2,11 @@
 <html>
 
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="mobil_layout1.css">
   <title>Sommer 2021</title>
- <link rel="stylesheet" href="mobil_layout1.css">
 </head>
 
 <body>
@@ -13,9 +15,6 @@
     <h1>Sommer 2021</h1>
   </header>
  
-<div class="container">
-
-
   
   <div class="boks-tekst" id="box1">
     
@@ -32,61 +31,39 @@
     </p>
   </div>
 
-  <div class="boks-tekst" id="box2">
+  
     <h2>Kule gutten</h2>
-    <picture>
-    <source media="(min-width:500px)" srcset="Images/Surfer/Surfe 1500.jpg">
-    <img src="Images/Surfer/Surfe mobil 460.jpg" alt="Gutt med surfebrett på strand">
-  </picture>
+    <img src="Images/Surfer/Surfe 460.jpg"
+     srcset="Images/Surfer/Surfe.jpg 500w,
+           Images/Surfer/Surfe 1500.jpg 1000w"
+     sizes="(min-width: 600px) 50vw, 100vw"   
+     alt="">
+      
+
+     <picture>
+      <img src="images/klasse.jfif" alt="Gutt med surfebrett på strand">
+       <source media="(min-width: 600px)" srcset="images/Surfer/Surfe 1000.jpg">
+      </picture>
+
     <p> Her ser dere bildet av lillebroren min, med et surfebrett. 
         Dette bildet er tatt på stranden i Wellfleet, Massachusetts
     </p>
-  </div>
-  
 
-  <div class="boks-tekst" id="box3">
-    <h2>Stranden</h2>
-      <img src="images/Strand.jpg" alt="Boy-band" >
-    
-   
-    <p> Stranden i Wellfleet, var et av de fineste stedene jeg har besøkt. 
-        Havet var blått og det var veldig fint her de dagene vi var på besøk.
-    </p>
-  </div>
+    <!------
+    <picture>
+      <source media="(min-width:650px)" srcset="img_pink_flowers.jpg">
+      <source media="(min-width:465px)" srcset="img_white_flower.jpg">
+      <img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+    </picture>
+ -->
 
-  <div class="boks-tekst" id="box4">
-    <h2>Kornåker</h2>
-    
-    <img src="images/kornåker.jfif" alt="Bilde av en kornåker">
-    <p> Bildet av kornåker, denne åkeren 
-      ligger i Nord Amerika og er et av stedene vi besøkte på reisen vår i USA.
-
-    </p>
-  </div>
-
-  <div class="boks-tekst" id="box5">
-    <h2>Is</h2>
-    <img src="images/isane.jfif" alt="Bilde av iskrem">
-    <p> Det ble spist mye Is i sommer, derfor passer det perfekt å ha med et bilde av is.
-
-    </p>
-  </div>
-
-  <div class="boks-tekst" id="box6">
-    <h2>Skogen</h2>
-    <img src="images/soliskogen.jfif" alt="Bilde av en flott skog der solen skinner gjennom">
-    <p>  Det her er bildet av en flott skog i Norge. Denne skogen her pleide jeg å gå til når det ble for mye og når
-       jeg trengte å klarere tankene mine i sommerferien.
-    </p>
-  </div>
-
-</div>
-<footer>
-  <p>link til wireframe for mobil og pc:</p>
-  <a href="/images/wirefram-screen.jpg" alt="Image description" target="_blank" >wirefram-screen</a>
-  <a href="/images/Wirefram-mobil.jpg" alt="Image description" target="_blank" >wirefram-mobil</a>
-
-</footer>
+<!------
+    <picture>
+      <source srcset="large.jpg" media="(min-width: 1200px)" />
+      <source srcset="medium.jpg" media="(min-width: 800px)" />
+      <img src="small.jpg" />
+    </picture>
+  -->
     
 </body>
 

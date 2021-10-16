@@ -8,8 +8,6 @@
     font-family: Roboto;
     src: url(assets/Roboto/Roboto-Bold.ttf);
     font-weight: bold;
-
-
 }
 
 
@@ -17,6 +15,7 @@ body {
   background-color: rgba(170, 170, 89, 0.336);
   font-family: Georgia, serif;
 }
+
 .container {
   margin: auto;
   display: flex;
@@ -29,8 +28,8 @@ h1 {
   text-shadow: 5px 5px 5px #af5858;
   text-align: center;
   font-size: 8rem;
-
 }
+
 h2 {
   text-transform: capitalize;
   font-style: italic;
@@ -67,16 +66,14 @@ header {
   filter: saturate(0.5);
   border: 0px solid #adaaaa;
   border-radius: 10%;
-  
-  
 }
 
 footer {
   border: 0.5px solid #222;
   min-height: 10px;
   text-align: center;
- 
 }
+
 footer p{
   font-size: 30px;
 }
@@ -90,16 +87,17 @@ footer p{
     padding-bottom:3px;
 
   }
+
   body{
     background-color: rgb(224, 221, 217)
-    
   }
+
   h2{
     text-transform: uppercase;
   }
+
   .boks-tekst p{
    font-style: normal;
-
   }
   
 }

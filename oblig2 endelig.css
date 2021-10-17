@@ -31,6 +31,8 @@ h2 {
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
+  align-content: space-between;
+ 
 }
 .boks{
   margin: 5px;

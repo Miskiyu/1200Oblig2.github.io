@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Før vi startet på siden så lagde vi to forskjellige wireframes,
+    den ene for mobil og den andre for large screen. Det var
+    flere utfordringer som vi møtte på. Den første var hvordan vi
+    skulle implementere bildene fra big screen til liten screen.
+    Layouten vår for stor skjerm skulle være at tre bilder stod på en rad,
+    men ettersom skjermen ble mindre, så skulle bildene falle under hverandre.
+    Til slutt skulle ett og ett bilde ta hele bredden av skjermen, og teksten
+    som beskrev dem skulle komme under. Dette fikk vi store problemer med, på grunn av
+    at vi ikke skjønte helt hvordan vi skulle få to av bildene ned når skjermen 
+    ble mindre.Vi fikk bare til å få dem til å bli to etter hverandre. Vi fikk
+    dette problemet på grunn av atikke hadde en container div, vi hadde bare div-er
+    for selve “iteamesen”. Men når vi lagde containeren så klarte vi ikke å få det
+    til slik vi ville ha det heller, men så fant vi ut av hva problemet var.Main taggen
+    hadde havnet etter containeren i kode rekken, dette førte til at div containeren så bare main taggen,
+    og ikke iteamsene, så vi måtte få det bort. Etter det så måtte vi bestemme hvor stor boksen til itemesene skulle være
+    og hvilken størrelse dette skulle endre fra “row” til “colums”. Dette gjorde vi ved å bruke media queries, hvor vi
+    satte containeren til columns. Dette førte til at vi klarte å få
+    til slik vi ville layouten til small screen skulle være.
+
+
+    Da vi skulle implementere siden med hensyn til dens responsive natur 
+    så hadde vi ikke så store utfordringer. Dette på grunn av at vi brukte 
+    flex-boks og dens egenskaper som gjør den ganske så responsive. 
+    Men vi hadde  en utfordring med å endre egenskapene til “p”- elementet 
+    og minst en overskrift mellom forskjellige størrelser. Hva enn vi gjorde
+    så fikk vi ikke det til endre noe media aquarien. Til slutt fant vi ut 
+    av at vi brukte media equariesen feil og at vi måtte bruke media(min-width)
+    og ikke start, som var det vi brukte i begynnelsen. Når vi brukte den så fikk
+     vi til å forandre på p og to heading . 
+     
+     
+    Vi bestemte oss først å bruke “picture-taggen fordi når man bruker den så er det du selv 
+    som bestemmer hvordan bildene blir i de ulike skjerm størrelsene, mens når man bruker img 
+    taggen så er det siden selv som bestemmer. Etter at vi valgte denne så møtte på flere utfordringer.
+    Vi problemer med å implementere “picture-taggen” og/eller “Srcset-taggen” i bilde-taggen. Vi
+    tok utgangspunkt i demoer fra W3-schools, developer-mozilla og noen videoer på You-tube. Vi 
+    tok utgangspunkt i det minste mobilbildet som grunnlag for nettsiden. Med andre ord, det
+    minste mobilbildet ble lastet opp i Src-en til img-taggen. Egentlig blir den overflødig ved 
+    bruk Srcset-taggen, men da har nettsiden noe å falle tilbake på hvis noe skulle være galt med de 
+    andre taggene, eller at nettleseren ikke støtter picture-funksjonen. Dette var det eneste som fungerte
+    i begynnelse. Det bilde som blir lastet inn i img (src) er det eneste som viste seg i 
+    begynnelsen uansett hvordan vi endret på størrelsen på nettleseren.
+
+    Etter en stund i feilsøkingen fant vi ut at vi manglet en kode i “headen” som brukes når viewporten 
+    endrer seg i størrelse og bilder også da skal endre størrelse eller byttes ut(?). Det 
+    var iallefall en kode alle eksemplene og videoene med eksempler på Youtube brukte. 
+    Men når vi endret på dette, så endret heller ikke bildene. Etter flere feilsøkning så
+    bestemte vi oss å endre bildestørrelsen til bildene. Det visste seg at problemet vår
+    var i selve bildestørrelsen, når vi satte alle bildene i samme størrelse så klarte vi
+    å forandre bildet størrelsen til bildene når skjermen ble større og når skjermen ble
+    mindre. Men det som skjedde her var at bildene til big screen ikke ble veldig fine.
+   
+     
+
+
+
+
+</body>
+</html>
